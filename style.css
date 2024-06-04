@@ -9,9 +9,8 @@ body {
     flex-direction: column;
     color: white;
     font-family: Arial, sans-serif;
-    /* Added a default font family */
     background-color: black;
-    /* Added a background color for better contrast */
+    margin: 0;
 }
 
 header {
@@ -22,7 +21,6 @@ header {
     padding: 20px;
     align-items: center;
     width: 100%;
-    /* Ensures header takes full width */
 }
 
 .logo {
@@ -45,15 +43,12 @@ header {
     z-index: -1;
     background-color: black;
     overflow: hidden;
-    /* Ensures video doesn't overflow */
 }
 
 video {
     width: 100vw;
-    /* Adjusted to fit within the viewport */
     height: 100vh;
     object-fit: cover;
-    /* Ensures video covers the entire area */
 }
 
 .mascara {
@@ -64,19 +59,16 @@ video {
     left: 0;
     background: linear-gradient(312deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.454) 50%, rgba(0, 0, 0, 1) 100%);
     z-index: 0;
-    /* Ensures the mask is above the video */
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    /* Changed to column for better mobile support */
     align-items: center;
     padding: 50px 20px;
     gap: 50px;
     margin-bottom: 100px;
     z-index: 1;
-    /* Ensures content is above the mask */
 }
 
 .main-photo {
@@ -98,14 +90,12 @@ video {
 .name {
     max-width: 100%;
     font-size: 10vw;
-    /* Changed to responsive font size */
     text-align: center;
 }
 
 .desc {
     max-width: 90%;
     font-size: 4vw;
-    /* Changed to responsive font size */
     margin-top: 30px;
     text-align: center;
 }
@@ -121,7 +111,6 @@ video {
     position: relative;
     margin-bottom: 100px;
     overflow: hidden;
-    /* Ensures images don't overflow */
 }
 
 @keyframes display {
@@ -180,7 +169,6 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* Allows wrapping for better responsiveness */
     justify-content: center;
     gap: 20px;
 }
@@ -199,10 +187,8 @@ footer {
     max-width: 250px;
     margin: 30px auto;
     border-radius: 10px;
-
 }
 
 .qrcode p {
     font-size: 4vw;
-    /* Changed to responsive font size */
 }
