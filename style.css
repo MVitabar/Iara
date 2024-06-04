@@ -192,3 +192,39 @@ footer {
 .qrcode p {
     font-size: 4vw;
 }
+
+.instagram-preview {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    z-index: 1;
+}
+
+.instagram-preview h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.instagram-media {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.location {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    z-index: 1;
+}
+
+.location h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.location iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+}
